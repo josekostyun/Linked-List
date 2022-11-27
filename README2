@@ -1,15 +1,10 @@
 Pt II of Project
 
-The Meal, Second Course:
+**The Meal, Second Course:**
 
 At this point the Failcircles unwind into Failqueues, with the smallest-numbered Failfish from each Failcircle at the head of that Failcircle’s Failqueue.
-
-• The Failfish converge on and consume the highest-numbered Failfish of those at the heads of the queues.
-
-• In case of a tie, the Failfish at the head of the smallest-numbered Failgroup’s queue is eaten.
-
-• This continues until there is only one Failfish remaining.
-
-• You are to report which Failfish this is, based on the theory that this information will allow the farmer to breed Failfish that are less likely to be eaten.
-    
-    o(It will not.)
+* The Failfish converge on and consume the highest-numbered Failfish of those at the heads of the queues.
+* In case of a tie, the Failfish at the head of the smallest-numbered Failgroup’s queue is eaten.
+* This continues until there is only one Failfish remaining.
+* You are to report which Failfish this is, based on the theory that this information will allow the farmer to breed Failfish that are less likely to be eaten.
+  * (It will not.)
