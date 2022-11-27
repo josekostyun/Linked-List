@@ -13,21 +13,19 @@ The farmer has:
 * Ten Failfish ponds arranged one after the other.
   * Each pond has a name, and also a sequence number from 1 to 10.
 * 𝐺 groups of Failfish that they’ve captured. Groups of Failfish are called Failgroups. They were called  Failschools once, but small monster scholars determined that Failfish are unable to learn.
-  * Each Failgroup 𝑔𝑖 has 𝑛𝑖 Failfish in it, with 𝑛𝑖 ≥ 2. Note that 𝑖 is the pond number – the Failfish don’t
-    have to be in ponds 1. . 𝐺.
-  * Each Failfish in a Failgroup is branded with a sequence number, from 1 to 𝑛𝑖
+  * Each Failgroup 𝑔<sub>𝑖</sub> has 𝑛<sub>𝑖</sub> Failfish in it, with 𝑛<sub>𝑖</sub> ≥ 2. Note that 𝑖 is the pond number – the Failfish don’t
+    have to be in ponds 1...𝐺.
+  * Each Failfish in a Failgroup is branded with a sequence number, from 1 to 𝑛<sub>𝑖</sub>
 * (Modern small monster farming methods being humane, the branding is done with a particularly waterproof marker. No Failfish are harmed during modern Failfish farming. (Except when they get eaten.))
 
 ### The Meal, First Course: ###
 
 Failfish in a Failgroup form a Failcircle when preparing to eat each other. For a group of seven Failfish, the Failcircle looks like Figure 1.
-Once a Failcircle is formed, phase 1 of the dining begins. It’s controlled by three values: 𝑒𝑖 , the eating counter; 𝑡ℎ𝑖 , the minimum Failgroup threshold;
-and 𝑛𝑖 , the number of Failfish.
+Once a Failcircle is formed, phase 1 of the dining begins. It’s controlled by three values: 𝑒<sub>𝑖</sub> , the eating counter; 𝑡ℎ<sub>𝑖</sub> , the minimum Failgroup threshold; and 𝑛<sub>𝑖</sub> , the number of Failfish.
 * The Failfish begin counting with the smallest-numbered Failfish in the Failcircle.
-* The Failfish skip the first 𝑒𝑖 − 1 Failfish, and eat the 𝑒𝑖th Failfish clockwise of the starting Failfish.
-* The Failfish then skip the next 𝑒𝑖 − 1 fish, and eat the 𝑒𝑖 th Failfish clockwise of the last-eaten Failfish.
-* This process continues until the Failcircle’s population drops to 𝑡ℎ𝑖, the minimum Failgroup threshold. Each Failgroup dines independently according to this algorithm. No one is quite sure why. The fish will continue to eat each other until the population of the group is reduced to a threshold value 𝑡ℎ𝑖. Uneaten
-fish at this point continue to the second course.
+* The Failfish skip the first 𝑒<sub>𝑖</sub> − 1 Failfish, and eat the 𝑒<sub>𝑖</sub>th Failfish clockwise of the starting Failfish.
+* The Failfish then skip the next 𝑒<sub>𝑖</sub> − 1 fish, and eat the 𝑒<sub>𝑖</sub> th Failfish clockwise of the last-eaten Failfish.
+* This process continues until the Failcircle’s population drops to 𝑡ℎ<sub>𝑖</sub>, the minimum Failgroup threshold. Each Failgroup dines independently according to this algorithm. No one is quite sure why. The fish will continue to eat each other until the population of the group is reduced to a threshold value 𝑡ℎ<sub>𝑖</sub>. Uneaten fish at this point continue to the second course.
 
 ### The Meal, Second Course: ###
 
