@@ -10,7 +10,6 @@ people from trying. It keeps them from succeeding, but not from trying.
 You have been hired by an ambitious small monster farmer to record their attempts to farm Failfish.
 
 The farmer has:
-
 * Ten Failfish ponds arranged one after the other.
   * Each pond has a name, and also a sequence number from 1 to 10.
 * 𝐺 groups of Failfish that they’ve captured. Groups of Failfish are called Failgroups. They were called  Failschools once, but small monster scholars determined that Failfish are unable to learn.
@@ -19,7 +18,7 @@ The farmer has:
   * Each Failfish in a Failgroup is branded with a sequence number, from 1 to 𝑛𝑖
 * (Modern small monster farming methods being humane, the branding is done with a particularly waterproof marker. No Failfish are harmed during modern Failfish farming. (Except when they get eaten.))
 
-**The Meal, First Course:**
+### The Meal, First Course: ###
 
 Failfish in a Failgroup form a Failcircle when preparing to eat each other. For a group of seven Failfish, the Failcircle looks like Figure 1.
 Once a Failcircle is formed, phase 1 of the dining begins. It’s controlled by three values: 𝑒𝑖 , the eating counter; 𝑡ℎ𝑖 , the minimum Failgroup threshold;
@@ -30,3 +29,11 @@ and 𝑛𝑖 , the number of Failfish.
 * This process continues until the Failcircle’s population drops to 𝑡ℎ𝑖, the minimum Failgroup threshold. Each Failgroup dines independently according to this algorithm. No one is quite sure why. The fish will continue to eat each other until the population of the group is reduced to a threshold value 𝑡ℎ𝑖. Uneaten
 fish at this point continue to the second course.
 
+### The Meal, Second Course: ###
+
+At this point the Failcircles unwind into Failqueues, with the smallest-numbered Failfish from each Failcircle at the head of that Failcircle’s Failqueue.
+* The Failfish converge on and consume the highest-numbered Failfish of those at the heads of the queues.
+* In case of a tie, the Failfish at the head of the smallest-numbered Failgroup’s queue is eaten.
+* This continues until there is only one Failfish remaining.
+* You are to report which Failfish this is, based on the theory that this information will allow the farmer to breed Failfish that are less likely to be eaten.
+  * (It will not.)
