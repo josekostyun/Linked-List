@@ -24,7 +24,7 @@ Failfish in a Failgroup form a Failcircle when preparing to eat each other. For 
 Once a Failcircle is formed, phase 1 of the dining begins. It’s controlled by three values: 𝑒<sub>𝑖</sub> , the eating counter; 𝑡ℎ<sub>𝑖</sub> , the minimum Failgroup threshold; and 𝑛<sub>𝑖</sub> , the number of Failfish.
 * The Failfish begin counting with the smallest-numbered Failfish in the Failcircle.
 * The Failfish skip the first 𝑒<sub>𝑖</sub> − 1 Failfish, and eat the 𝑒<sub>𝑖</sub>th Failfish clockwise of the starting Failfish.
-* The Failfish then skip the next 𝑒<sub>𝑖</sub> − 1 fish, and eat the 𝑒<sub>𝑖</sub> th Failfish clockwise of the last-eaten Failfish.
+* The Failfish then skip the next 𝑒<sub>𝑖</sub> − 1 fish, and eat the 𝑒<sub>𝑖</sub>th Failfish clockwise of the last-eaten Failfish.
 * This process continues until the Failcircle’s population drops to 𝑡ℎ<sub>𝑖</sub>, the minimum Failgroup threshold. Each Failgroup dines independently according to this algorithm. No one is quite sure why. The fish will continue to eat each other until the population of the group is reduced to a threshold value 𝑡ℎ<sub>𝑖</sub>. Uneaten fish at this point continue to the second course.
 
 ### The Meal, Second Course: ###
